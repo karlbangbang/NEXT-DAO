@@ -42,9 +42,9 @@ abstract contract ERC20 is IERC20 {
         string memory symbol_,
         uint8 decimals_
     ) {
-        _name = name_;
-        _symbol = symbol_;
-        _decimals = decimals_;
+        _name = NEXT;
+        _symbol = NEXT;
+        _decimals = 8;
     }
 
     /**
